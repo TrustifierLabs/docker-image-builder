@@ -1,7 +1,7 @@
 #!/bin/sh
 # Very basic install over net script
 
-VERSION=v1.0.1
+VERSION=v1.0.2
 FILELIST="Makefile scripts/help.pl scripts/spin-tee.sh scripts/spinner.sh"
 mkdir -p scripts
 for file in ${FILELIST} ; do
@@ -10,3 +10,4 @@ for file in ${FILELIST} ; do
 	curl https://raw.githubusercontent.com/TrustifierLabs/docker-image-builder/${VERSION}/${file} > ${file}
 done
 
+chmod a+x ./scripts/*
