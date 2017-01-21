@@ -7,7 +7,7 @@ help build Docker images and keep the need for long command-lines low.
 
 To install use:
 
-	`(curl https://raw.githubusercontent.com/TrustifierLabs/docker-image-builder/v1.0.0/install.sh) | bash`
+	(curl https://raw.githubusercontent.com/TrustifierLabs/docker-image-builder/v1.0.0/install.sh | bash)
 
 # TODO 
 
