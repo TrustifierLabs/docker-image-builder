@@ -1,5 +1,7 @@
 # Docker Image Builder
 
+### version 1.0.0
+
 This is a simple GNUmake Makefile (plus a couple of helper scripts) to 
 help build Docker images and keep the need for long command-lines low.
 
